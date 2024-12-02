@@ -15,7 +15,7 @@ let index = 0;
 if(window.location.pathname.includes("index.html")) {
 	startButton.addEventListener("click", function() {
 		console.log("Start Button Clicked!");
-		window.location.href = "./game.html";
+		window.location.href = "https://serena-nam.github.io/finalwebsite/game.html";
 		
 	});
 }
