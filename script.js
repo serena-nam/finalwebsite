@@ -12,14 +12,6 @@ let artists = ["Billie Eilish", "Bruno Mars", "Harry Styles", "Billie Eilish", "
 
 let index = 0;
 
-if(window.location.pathname.includes("index.html")) {
-	startButton.addEventListener("click", function() {
-		console.log("Start Button Clicked!");
-		window.location.href = "https://serena-nam.github.io/finalwebsite/game.html";
-		
-	});
-}
-
 console.log(index);
 if(window.location.pathname.includes("game.html")) {
 	generateQuestion();
