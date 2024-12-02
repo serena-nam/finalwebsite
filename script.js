@@ -11,13 +11,11 @@ let titles = ["Ocean Eyes", "Talking to the Moon", "Watermelon Sugar", "Birds of
 let artists = ["Billie Eilish", "Bruno Mars", "Harry Styles", "Billie Eilish", "Bruno Mars, Lady Gaga", "Sabrina Carpenter", "Rose, Bruno Mars"];
 
 let index = 0;
-console.log(window.location.pathname); 
-console.log(songs[index]);
 
 if(window.location.pathname.includes("index.html")) {
 	startButton.addEventListener("click", function() {
 		console.log("Start Button Clicked!");
-		window.location.href = "game.html";
+		window.location = "game.html";
 		
 	});
 }
