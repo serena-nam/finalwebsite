@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inclusive+Sans:ital@0;1&family=MonteCarlo&family=Nova+Square&family=Pixelify+Sans:wght@400..700&family=Rationale&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #5f4b8b, #89c9b8);
+    overflow: hidden;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 600px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+		font-family: "Dela Gothic One", sans-serif;
+    font-size: 2.5em;
+    color: #4A90E2;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 1.1em;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 1.1em;
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 0;
+    width: 60%;
+}
+
+button:hover {
+    background-color: #357ABD;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+#questionText {
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#answerText {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #FF6F61;
+    font-weight: bold;
+}
+
+#playAgainButton {
+    display: none;
+    margin-top: 20px;
+    background-color: #4CAF50;
+}
+
+.vinylImg {
+	width: 50%;
+}
