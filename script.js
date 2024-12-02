@@ -15,7 +15,7 @@ let index = 0;
 if(window.location.pathname.includes("index.html")) {
 	startButton.addEventListener("click", function() {
 		console.log("Start Button Clicked!");
-		window.location = "game.html";
+		window.location.href = "./game.html";
 		
 	});
 }
